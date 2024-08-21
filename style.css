@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d192c;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  width: 350px;
+  background-color: #15263f;
+  padding: 24px 24px;
+  border-radius: 16px;
+}
+.main-img {
+  width: 300px;
+  border-radius: 9px;
+  margin-bottom: 16px;
+  position: relative;
+  /* display: block; */
+}
+/* .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.overlay {
+  width: 300px;
+  height: 300px;
+  top: 12.5%;
+  left: 40.1%;
+  position: absolute;
+  background-color: rgba(0, 255, 247, 0.182);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+h1:hover {
+  color: #00fff8;
+}
+.equ-info {
+  color: #8bacd9;
+  margin-bottom: 19px;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.coin-price {
+  color: #00fff8;
+  gap: 4px;
+}
+.coin-time {
+  color: #8bacd9;
+  gap: 4px;
+}
+
+.avatar--img {
+  width: 33px;
+}
+hr {
+  border: none;
+  background-color: #2e405a;
+  margin-bottom: 11px;
+  height: 1px;
+}
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.color-change {
+  color: #8bacd9;
+}
+.hover-name {
+  cursor: pointer;
+}
+.hover-name:hover {
+  color: #00fff8;
+}
